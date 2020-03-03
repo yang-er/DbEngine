@@ -1,0 +1,21 @@
+DROP TABLE stu;
+
+CREATE TABLE stu
+(
+   id INT,
+   name STRING,
+   grade INT,
+   PRIMARY KEY(id)
+);
+
+INSERT INTO stu VALUES (1101, 'Garen', 5517);
+
+INSERT INTO stu VALUES (1102, 'Diana', 5517);
+
+INSERT INTO stu VALUES (1103, 'Yasuo', 5517);
+
+INSERT INTO stu VALUES (1104, 'Akali', 5518);
+
+INSERT INTO stu VALUES (1105, 'Jax', 5518);
+
+INSERT INTO stu VALUES (1106, 'Jinx', 5518);
